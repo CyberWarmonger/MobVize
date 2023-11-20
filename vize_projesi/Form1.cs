@@ -322,5 +322,201 @@ namespace vize_projesi
                 urunAdetleri["Künefe"] = adet;
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Ürünlerin fiyatlarini tutacak dictionary
+            Dictionary<string, decimal> urunFiyatlari = new Dictionary<string, decimal>();
+            urunFiyatlari.Add("Kola", 15.0m);
+            urunFiyatlari.Add("Su", 5.0m);
+            urunFiyatlari.Add("Fanta", 15.0m);
+            urunFiyatlari.Add("Çay", 10.0m);
+            urunFiyatlari.Add("Tost", 25.0m);
+            urunFiyatlari.Add("İskender", 50.0m);
+            urunFiyatlari.Add("Döner", 30.0m);
+            urunFiyatlari.Add("Çiğ Köfte", 25.0m);
+            urunFiyatlari.Add("Trileçe", 30.0m);
+            urunFiyatlari.Add("Künefe", 30.0m);
+
+
+            // Ürünlerin adetlerini tutacak dictionary
+            Dictionary<string, int> urunAdetleri = new Dictionary<string, int>();
+            urunAdetleri.Add("Kola", 0);
+            urunAdetleri.Add("Su", 0);
+            urunAdetleri.Add("Fanta", 0);
+            urunAdetleri.Add("Çay", 0);
+            urunAdetleri.Add("Tost", 0);
+            urunAdetleri.Add("İskender", 0);
+            urunAdetleri.Add("Döner", 0);
+            urunAdetleri.Add("Çiğ Köfte", 0);
+            urunAdetleri.Add("Trileçe", 0);
+            urunAdetleri.Add("Künefe", 0);
+
+
+            // Kullanıcının seçtiği ürünlerin fiyatlarını ve adetlerini toplamak için degisken
+            decimal toplamFiyat = 0;
+
+            // Kullanıcının seçtiği ürünleri kontrol et, fiyatları ve adetleri topla.
+            if (checkBoxKola4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxKola4.Text);
+                toplamFiyat += urunFiyatlari["Kola"] * adet;
+                urunAdetleri["Kola"] = adet;
+            }
+
+            if (checkBoxSu4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxSu4.Text);
+                toplamFiyat += urunFiyatlari["Su"] * adet;
+                urunAdetleri["Su"] = adet;
+            }
+
+            if (checkBoxFanta4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxFanta4.Text);
+                toplamFiyat += urunFiyatlari["Fanta"] * adet;
+                urunAdetleri["Fanta"] = adet;
+            }
+            if (checkBoxCay4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxCay4.Text);
+                toplamFiyat += urunFiyatlari["Çay"] * adet;
+                urunAdetleri["Çay"] = adet;
+            }
+            if (checkBoxTost4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxTost4.Text);
+                toplamFiyat += urunFiyatlari["Tost"] * adet;
+                urunAdetleri["Tost"] = adet;
+            }
+            if (checkBoxIskender4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxIskender4.Text);
+                toplamFiyat += urunFiyatlari["İskender"] * adet;
+                urunAdetleri["İskender"] = adet;
+            }
+            if (checkBoxDoner4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxDoner4.Text);
+                toplamFiyat += urunFiyatlari["Döner"] * adet;
+                urunAdetleri["Döner"] = adet;
+            }
+            if (checkBoxCigKofte4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxCigKofte4.Text);
+                toplamFiyat += urunFiyatlari["Çiğ Köfte"] * adet;
+                urunAdetleri["Çiğ Köfte"] = adet;
+            }
+            if (checkBoxTrilece4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxTrilece4.Text);
+                toplamFiyat += urunFiyatlari["Trileçe"] * adet;
+                urunAdetleri["Trileçe"] = adet;
+            }
+            if (checkBoxKunefe4.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxKunefe4.Text);
+                toplamFiyat += urunFiyatlari["Künefe"] * adet;
+                urunAdetleri["Künefe"] = adet;
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // Ürünlerin fiyatlarini tutacak dictionary
+            Dictionary<string, decimal> urunFiyatlari = new Dictionary<string, decimal>();
+            urunFiyatlari.Add("Kola", 15.0m);
+            urunFiyatlari.Add("Su", 5.0m);
+            urunFiyatlari.Add("Fanta", 15.0m);
+            urunFiyatlari.Add("Çay", 10.0m);
+            urunFiyatlari.Add("Tost", 25.0m);
+            urunFiyatlari.Add("İskender", 50.0m);
+            urunFiyatlari.Add("Döner", 30.0m);
+            urunFiyatlari.Add("Çiğ Köfte", 25.0m);
+            urunFiyatlari.Add("Trileçe", 30.0m);
+            urunFiyatlari.Add("Künefe", 30.0m);
+
+
+            // Ürünlerin adetlerini tutacak dictionary
+            Dictionary<string, int> urunAdetleri = new Dictionary<string, int>();
+            urunAdetleri.Add("Kola", 0);
+            urunAdetleri.Add("Su", 0);
+            urunAdetleri.Add("Fanta", 0);
+            urunAdetleri.Add("Çay", 0);
+            urunAdetleri.Add("Tost", 0);
+            urunAdetleri.Add("İskender", 0);
+            urunAdetleri.Add("Döner", 0);
+            urunAdetleri.Add("Çiğ Köfte", 0);
+            urunAdetleri.Add("Trileçe", 0);
+            urunAdetleri.Add("Künefe", 0);
+
+
+            // Kullanıcının seçtiği ürünlerin fiyatlarını ve adetlerini toplamak için degisken
+            decimal toplamFiyat = 0;
+
+            // Kullanıcının seçtiği ürünleri kontrol et, fiyatları ve adetleri topla.
+            if (checkBoxKola5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxKola5.Text);
+                toplamFiyat += urunFiyatlari["Kola"] * adet;
+                urunAdetleri["Kola"] = adet;
+            }
+
+            if (checkBoxSu5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxSu5.Text);
+                toplamFiyat += urunFiyatlari["Su"] * adet;
+                urunAdetleri["Su"] = adet;
+            }
+
+            if (checkBoxFanta5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxFanta5.Text);
+                toplamFiyat += urunFiyatlari["Fanta"] * adet;
+                urunAdetleri["Fanta"] = adet;
+            }
+            if (checkBoxCay5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxCay5.Text);
+                toplamFiyat += urunFiyatlari["Çay"] * adet;
+                urunAdetleri["Çay"] = adet;
+            }
+            if (checkBoxTost5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxTost5.Text);
+                toplamFiyat += urunFiyatlari["Tost"] * adet;
+                urunAdetleri["Tost"] = adet;
+            }
+            if (checkBoxIskender5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxIskender5.Text);
+                toplamFiyat += urunFiyatlari["İskender"] * adet;
+                urunAdetleri["İskender"] = adet;
+            }
+            if (checkBoxDoner5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxDoner5.Text);
+                toplamFiyat += urunFiyatlari["Döner"] * adet;
+                urunAdetleri["Döner"] = adet;
+            }
+            if (checkBoxCigKofte5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxCigKofte5.Text);
+                toplamFiyat += urunFiyatlari["Çiğ Köfte"] * adet;
+                urunAdetleri["Çiğ Köfte"] = adet;
+            }
+            if (checkBoxTrilece5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxTrilece5.Text);
+                toplamFiyat += urunFiyatlari["Trileçe"] * adet;
+                urunAdetleri["Trileçe"] = adet;
+            }
+            if (checkBoxKunefe5.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxKunefe5.Text);
+                toplamFiyat += urunFiyatlari["Künefe"] * adet;
+                urunAdetleri["Künefe"] = adet;
+            }
+        }
     }
 }

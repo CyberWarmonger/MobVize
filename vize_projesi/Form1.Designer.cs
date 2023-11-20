@@ -30,6 +30,7 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBoxKunefe = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBoxTrilece = new System.Windows.Forms.TextBox();
             this.textBoxCigKofte = new System.Windows.Forms.TextBox();
             this.textBoxDoner = new System.Windows.Forms.TextBox();
@@ -52,7 +53,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBoxKunefe2 = new System.Windows.Forms.TextBox();
@@ -80,31 +80,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.textBoxKunefe3 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.textBoxTrilece3 = new System.Windows.Forms.TextBox();
@@ -129,9 +104,60 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBoxKunefe4 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBoxTrilece4 = new System.Windows.Forms.TextBox();
+            this.textBoxCigKofte4 = new System.Windows.Forms.TextBox();
+            this.textBoxDoner4 = new System.Windows.Forms.TextBox();
+            this.textBoxIskender4 = new System.Windows.Forms.TextBox();
+            this.textBoxTost4 = new System.Windows.Forms.TextBox();
+            this.textBoxCay4 = new System.Windows.Forms.TextBox();
+            this.textBoxFanta4 = new System.Windows.Forms.TextBox();
+            this.textBoxSu4 = new System.Windows.Forms.TextBox();
+            this.textBoxKola4 = new System.Windows.Forms.TextBox();
+            this.checkBoxKunefe4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxTrilece4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxCigKofte4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxDoner4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxIskender4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxTost4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxCay4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxFanta4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxSu4 = new System.Windows.Forms.CheckBox();
+            this.checkBoxKola4 = new System.Windows.Forms.CheckBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.textBoxKunefe5 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBoxTrilece5 = new System.Windows.Forms.TextBox();
+            this.textBoxCigKofte5 = new System.Windows.Forms.TextBox();
+            this.textBoxDoner5 = new System.Windows.Forms.TextBox();
+            this.textBoxIskender5 = new System.Windows.Forms.TextBox();
+            this.textBoxTost5 = new System.Windows.Forms.TextBox();
+            this.textBoxCay5 = new System.Windows.Forms.TextBox();
+            this.textBoxFanta5 = new System.Windows.Forms.TextBox();
+            this.textBoxSu5 = new System.Windows.Forms.TextBox();
+            this.textBoxKola5 = new System.Windows.Forms.TextBox();
+            this.checkBoxKunefe5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxTrilece5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxCigKofte5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxDoner5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxIskender5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxTost5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxCay5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxFanta5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxSu5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxKola5 = new System.Windows.Forms.CheckBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -176,6 +202,16 @@
             this.textBoxKunefe.Name = "textBoxKunefe";
             this.textBoxKunefe.Size = new System.Drawing.Size(54, 24);
             this.textBoxKunefe.TabIndex = 23;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(47, 671);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 31);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Onayla";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBoxTrilece
             // 
@@ -383,23 +419,13 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "YEMEKLER";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(47, 671);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 31);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Onayla";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 18;
-            this.listBox1.Location = new System.Drawing.Point(1055, 326);
+            this.listBox1.Location = new System.Drawing.Point(1321, 541);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(345, 292);
+            this.listBox1.Size = new System.Drawing.Size(130, 238);
             this.listBox1.TabIndex = 2;
             // 
             // groupBox2
@@ -662,7 +688,6 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.groupBox5);
             this.groupBox3.Controls.Add(this.textBoxKunefe3);
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Controls.Add(this.textBoxTrilece3);
@@ -695,263 +720,6 @@
             this.groupBox3.TabIndex = 26;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Masa 3";
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.textBox11);
-            this.groupBox5.Controls.Add(this.button4);
-            this.groupBox5.Controls.Add(this.textBox12);
-            this.groupBox5.Controls.Add(this.textBox13);
-            this.groupBox5.Controls.Add(this.textBox14);
-            this.groupBox5.Controls.Add(this.textBox15);
-            this.groupBox5.Controls.Add(this.textBox16);
-            this.groupBox5.Controls.Add(this.textBox17);
-            this.groupBox5.Controls.Add(this.textBox18);
-            this.groupBox5.Controls.Add(this.textBox19);
-            this.groupBox5.Controls.Add(this.textBox20);
-            this.groupBox5.Controls.Add(this.checkBox11);
-            this.groupBox5.Controls.Add(this.checkBox12);
-            this.groupBox5.Controls.Add(this.checkBox13);
-            this.groupBox5.Controls.Add(this.checkBox14);
-            this.groupBox5.Controls.Add(this.checkBox15);
-            this.groupBox5.Controls.Add(this.checkBox16);
-            this.groupBox5.Controls.Add(this.checkBox17);
-            this.groupBox5.Controls.Add(this.checkBox18);
-            this.groupBox5.Controls.Add(this.checkBox19);
-            this.groupBox5.Controls.Add(this.checkBox20);
-            this.groupBox5.Controls.Add(this.label10);
-            this.groupBox5.Controls.Add(this.label11);
-            this.groupBox5.Controls.Add(this.label12);
-            this.groupBox5.Location = new System.Drawing.Point(259, 0);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox5.Size = new System.Drawing.Size(261, 708);
-            this.groupBox5.TabIndex = 25;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Masa 3";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(173, 622);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(54, 24);
-            this.textBox11.TabIndex = 23;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(47, 671);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 31);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Onayla";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(173, 582);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(54, 24);
-            this.textBox12.TabIndex = 22;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(173, 471);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(54, 24);
-            this.textBox13.TabIndex = 21;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(173, 427);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(54, 24);
-            this.textBox14.TabIndex = 20;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(173, 382);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(54, 24);
-            this.textBox15.TabIndex = 19;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(173, 337);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(54, 24);
-            this.textBox16.TabIndex = 18;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(173, 220);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(54, 24);
-            this.textBox17.TabIndex = 17;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(173, 173);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(54, 24);
-            this.textBox18.TabIndex = 16;
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(173, 128);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(54, 24);
-            this.textBox19.TabIndex = 15;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(173, 84);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(54, 24);
-            this.textBox20.TabIndex = 14;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(18, 624);
-            this.checkBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(82, 22);
-            this.checkBox11.TabIndex = 13;
-            this.checkBox11.Text = "Künefe";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(18, 582);
-            this.checkBox12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(81, 22);
-            this.checkBox12.TabIndex = 12;
-            this.checkBox12.Text = "Trileçe";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(18, 471);
-            this.checkBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(100, 22);
-            this.checkBox13.TabIndex = 11;
-            this.checkBox13.Text = "Çiğ Köfte";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(19, 429);
-            this.checkBox14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(76, 22);
-            this.checkBox14.TabIndex = 10;
-            this.checkBox14.Text = "Döner";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(18, 382);
-            this.checkBox15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(94, 22);
-            this.checkBox15.TabIndex = 9;
-            this.checkBox15.Text = "İskender";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(19, 339);
-            this.checkBox16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(64, 22);
-            this.checkBox16.TabIndex = 8;
-            this.checkBox16.Text = "Tost";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(18, 220);
-            this.checkBox17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(59, 22);
-            this.checkBox17.TabIndex = 7;
-            this.checkBox17.Text = "Çay";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(18, 173);
-            this.checkBox18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(72, 22);
-            this.checkBox18.TabIndex = 6;
-            this.checkBox18.Text = "Fanta";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(18, 128);
-            this.checkBox19.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(50, 22);
-            this.checkBox19.TabIndex = 5;
-            this.checkBox19.Text = "Su";
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(19, 84);
-            this.checkBox20.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(64, 22);
-            this.checkBox20.TabIndex = 4;
-            this.checkBox20.Text = "Kola";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(8, 529);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(95, 20);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "TATLILAR";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(8, 36);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(112, 20);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "İÇECEKLER";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(8, 285);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(107, 20);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "YEMEKLER";
             // 
             // textBoxKunefe3
             // 
@@ -1176,11 +944,529 @@
             this.label15.TabIndex = 2;
             this.label15.Text = "YEMEKLER";
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.textBoxKunefe4);
+            this.groupBox4.Controls.Add(this.button4);
+            this.groupBox4.Controls.Add(this.textBoxTrilece4);
+            this.groupBox4.Controls.Add(this.textBoxCigKofte4);
+            this.groupBox4.Controls.Add(this.textBoxDoner4);
+            this.groupBox4.Controls.Add(this.textBoxIskender4);
+            this.groupBox4.Controls.Add(this.textBoxTost4);
+            this.groupBox4.Controls.Add(this.textBoxCay4);
+            this.groupBox4.Controls.Add(this.textBoxFanta4);
+            this.groupBox4.Controls.Add(this.textBoxSu4);
+            this.groupBox4.Controls.Add(this.textBoxKola4);
+            this.groupBox4.Controls.Add(this.checkBoxKunefe4);
+            this.groupBox4.Controls.Add(this.checkBoxTrilece4);
+            this.groupBox4.Controls.Add(this.checkBoxCigKofte4);
+            this.groupBox4.Controls.Add(this.checkBoxDoner4);
+            this.groupBox4.Controls.Add(this.checkBoxIskender4);
+            this.groupBox4.Controls.Add(this.checkBoxTost4);
+            this.groupBox4.Controls.Add(this.checkBoxCay4);
+            this.groupBox4.Controls.Add(this.checkBoxFanta4);
+            this.groupBox4.Controls.Add(this.checkBoxSu4);
+            this.groupBox4.Controls.Add(this.checkBoxKola4);
+            this.groupBox4.Controls.Add(this.label16);
+            this.groupBox4.Controls.Add(this.label17);
+            this.groupBox4.Controls.Add(this.label18);
+            this.groupBox4.Location = new System.Drawing.Point(793, 12);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox4.Size = new System.Drawing.Size(261, 708);
+            this.groupBox4.TabIndex = 27;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Masa 4";
+            // 
+            // textBoxKunefe4
+            // 
+            this.textBoxKunefe4.Location = new System.Drawing.Point(173, 622);
+            this.textBoxKunefe4.Name = "textBoxKunefe4";
+            this.textBoxKunefe4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxKunefe4.TabIndex = 23;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(47, 671);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(90, 31);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "Onayla";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // textBoxTrilece4
+            // 
+            this.textBoxTrilece4.Location = new System.Drawing.Point(173, 582);
+            this.textBoxTrilece4.Name = "textBoxTrilece4";
+            this.textBoxTrilece4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxTrilece4.TabIndex = 22;
+            // 
+            // textBoxCigKofte4
+            // 
+            this.textBoxCigKofte4.Location = new System.Drawing.Point(173, 471);
+            this.textBoxCigKofte4.Name = "textBoxCigKofte4";
+            this.textBoxCigKofte4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxCigKofte4.TabIndex = 21;
+            // 
+            // textBoxDoner4
+            // 
+            this.textBoxDoner4.Location = new System.Drawing.Point(173, 427);
+            this.textBoxDoner4.Name = "textBoxDoner4";
+            this.textBoxDoner4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxDoner4.TabIndex = 20;
+            // 
+            // textBoxIskender4
+            // 
+            this.textBoxIskender4.Location = new System.Drawing.Point(173, 382);
+            this.textBoxIskender4.Name = "textBoxIskender4";
+            this.textBoxIskender4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxIskender4.TabIndex = 19;
+            // 
+            // textBoxTost4
+            // 
+            this.textBoxTost4.Location = new System.Drawing.Point(173, 337);
+            this.textBoxTost4.Name = "textBoxTost4";
+            this.textBoxTost4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxTost4.TabIndex = 18;
+            // 
+            // textBoxCay4
+            // 
+            this.textBoxCay4.Location = new System.Drawing.Point(173, 220);
+            this.textBoxCay4.Name = "textBoxCay4";
+            this.textBoxCay4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxCay4.TabIndex = 17;
+            // 
+            // textBoxFanta4
+            // 
+            this.textBoxFanta4.Location = new System.Drawing.Point(173, 173);
+            this.textBoxFanta4.Name = "textBoxFanta4";
+            this.textBoxFanta4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxFanta4.TabIndex = 16;
+            // 
+            // textBoxSu4
+            // 
+            this.textBoxSu4.Location = new System.Drawing.Point(173, 128);
+            this.textBoxSu4.Name = "textBoxSu4";
+            this.textBoxSu4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxSu4.TabIndex = 15;
+            // 
+            // textBoxKola4
+            // 
+            this.textBoxKola4.Location = new System.Drawing.Point(173, 84);
+            this.textBoxKola4.Name = "textBoxKola4";
+            this.textBoxKola4.Size = new System.Drawing.Size(54, 24);
+            this.textBoxKola4.TabIndex = 14;
+            // 
+            // checkBoxKunefe4
+            // 
+            this.checkBoxKunefe4.AutoSize = true;
+            this.checkBoxKunefe4.Location = new System.Drawing.Point(18, 624);
+            this.checkBoxKunefe4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxKunefe4.Name = "checkBoxKunefe4";
+            this.checkBoxKunefe4.Size = new System.Drawing.Size(82, 22);
+            this.checkBoxKunefe4.TabIndex = 13;
+            this.checkBoxKunefe4.Text = "Künefe";
+            this.checkBoxKunefe4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxTrilece4
+            // 
+            this.checkBoxTrilece4.AutoSize = true;
+            this.checkBoxTrilece4.Location = new System.Drawing.Point(18, 582);
+            this.checkBoxTrilece4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxTrilece4.Name = "checkBoxTrilece4";
+            this.checkBoxTrilece4.Size = new System.Drawing.Size(81, 22);
+            this.checkBoxTrilece4.TabIndex = 12;
+            this.checkBoxTrilece4.Text = "Trileçe";
+            this.checkBoxTrilece4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxCigKofte4
+            // 
+            this.checkBoxCigKofte4.AutoSize = true;
+            this.checkBoxCigKofte4.Location = new System.Drawing.Point(18, 471);
+            this.checkBoxCigKofte4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxCigKofte4.Name = "checkBoxCigKofte4";
+            this.checkBoxCigKofte4.Size = new System.Drawing.Size(100, 22);
+            this.checkBoxCigKofte4.TabIndex = 11;
+            this.checkBoxCigKofte4.Text = "Çiğ Köfte";
+            this.checkBoxCigKofte4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxDoner4
+            // 
+            this.checkBoxDoner4.AutoSize = true;
+            this.checkBoxDoner4.Location = new System.Drawing.Point(19, 429);
+            this.checkBoxDoner4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxDoner4.Name = "checkBoxDoner4";
+            this.checkBoxDoner4.Size = new System.Drawing.Size(76, 22);
+            this.checkBoxDoner4.TabIndex = 10;
+            this.checkBoxDoner4.Text = "Döner";
+            this.checkBoxDoner4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxIskender4
+            // 
+            this.checkBoxIskender4.AutoSize = true;
+            this.checkBoxIskender4.Location = new System.Drawing.Point(18, 382);
+            this.checkBoxIskender4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxIskender4.Name = "checkBoxIskender4";
+            this.checkBoxIskender4.Size = new System.Drawing.Size(94, 22);
+            this.checkBoxIskender4.TabIndex = 9;
+            this.checkBoxIskender4.Text = "İskender";
+            this.checkBoxIskender4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxTost4
+            // 
+            this.checkBoxTost4.AutoSize = true;
+            this.checkBoxTost4.Location = new System.Drawing.Point(19, 339);
+            this.checkBoxTost4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxTost4.Name = "checkBoxTost4";
+            this.checkBoxTost4.Size = new System.Drawing.Size(64, 22);
+            this.checkBoxTost4.TabIndex = 8;
+            this.checkBoxTost4.Text = "Tost";
+            this.checkBoxTost4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxCay4
+            // 
+            this.checkBoxCay4.AutoSize = true;
+            this.checkBoxCay4.Location = new System.Drawing.Point(18, 220);
+            this.checkBoxCay4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxCay4.Name = "checkBoxCay4";
+            this.checkBoxCay4.Size = new System.Drawing.Size(59, 22);
+            this.checkBoxCay4.TabIndex = 7;
+            this.checkBoxCay4.Text = "Çay";
+            this.checkBoxCay4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxFanta4
+            // 
+            this.checkBoxFanta4.AutoSize = true;
+            this.checkBoxFanta4.Location = new System.Drawing.Point(18, 173);
+            this.checkBoxFanta4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxFanta4.Name = "checkBoxFanta4";
+            this.checkBoxFanta4.Size = new System.Drawing.Size(72, 22);
+            this.checkBoxFanta4.TabIndex = 6;
+            this.checkBoxFanta4.Text = "Fanta";
+            this.checkBoxFanta4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxSu4
+            // 
+            this.checkBoxSu4.AutoSize = true;
+            this.checkBoxSu4.Location = new System.Drawing.Point(18, 128);
+            this.checkBoxSu4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxSu4.Name = "checkBoxSu4";
+            this.checkBoxSu4.Size = new System.Drawing.Size(50, 22);
+            this.checkBoxSu4.TabIndex = 5;
+            this.checkBoxSu4.Text = "Su";
+            this.checkBoxSu4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxKola4
+            // 
+            this.checkBoxKola4.AutoSize = true;
+            this.checkBoxKola4.Location = new System.Drawing.Point(19, 84);
+            this.checkBoxKola4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxKola4.Name = "checkBoxKola4";
+            this.checkBoxKola4.Size = new System.Drawing.Size(64, 22);
+            this.checkBoxKola4.TabIndex = 4;
+            this.checkBoxKola4.Text = "Kola";
+            this.checkBoxKola4.UseVisualStyleBackColor = true;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label16.Location = new System.Drawing.Point(8, 529);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(95, 20);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "TATLILAR";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Location = new System.Drawing.Point(8, 36);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(112, 20);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "İÇECEKLER";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label18.Location = new System.Drawing.Point(8, 285);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(107, 20);
+            this.label18.TabIndex = 2;
+            this.label18.Text = "YEMEKLER";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.textBoxKunefe5);
+            this.groupBox5.Controls.Add(this.button5);
+            this.groupBox5.Controls.Add(this.textBoxTrilece5);
+            this.groupBox5.Controls.Add(this.textBoxCigKofte5);
+            this.groupBox5.Controls.Add(this.textBoxDoner5);
+            this.groupBox5.Controls.Add(this.textBoxIskender5);
+            this.groupBox5.Controls.Add(this.textBoxTost5);
+            this.groupBox5.Controls.Add(this.textBoxCay5);
+            this.groupBox5.Controls.Add(this.textBoxFanta5);
+            this.groupBox5.Controls.Add(this.textBoxSu5);
+            this.groupBox5.Controls.Add(this.textBoxKola5);
+            this.groupBox5.Controls.Add(this.checkBoxKunefe5);
+            this.groupBox5.Controls.Add(this.checkBoxTrilece5);
+            this.groupBox5.Controls.Add(this.checkBoxCigKofte5);
+            this.groupBox5.Controls.Add(this.checkBoxDoner5);
+            this.groupBox5.Controls.Add(this.checkBoxIskender5);
+            this.groupBox5.Controls.Add(this.checkBoxTost5);
+            this.groupBox5.Controls.Add(this.checkBoxCay5);
+            this.groupBox5.Controls.Add(this.checkBoxFanta5);
+            this.groupBox5.Controls.Add(this.checkBoxSu5);
+            this.groupBox5.Controls.Add(this.checkBoxKola5);
+            this.groupBox5.Controls.Add(this.label19);
+            this.groupBox5.Controls.Add(this.label20);
+            this.groupBox5.Controls.Add(this.label21);
+            this.groupBox5.Location = new System.Drawing.Point(1053, 12);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox5.Size = new System.Drawing.Size(261, 708);
+            this.groupBox5.TabIndex = 28;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Masa 5";
+            // 
+            // textBoxKunefe5
+            // 
+            this.textBoxKunefe5.Location = new System.Drawing.Point(173, 622);
+            this.textBoxKunefe5.Name = "textBoxKunefe5";
+            this.textBoxKunefe5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxKunefe5.TabIndex = 23;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(55, 671);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(90, 31);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "Onayla";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // textBoxTrilece5
+            // 
+            this.textBoxTrilece5.Location = new System.Drawing.Point(173, 582);
+            this.textBoxTrilece5.Name = "textBoxTrilece5";
+            this.textBoxTrilece5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxTrilece5.TabIndex = 22;
+            // 
+            // textBoxCigKofte5
+            // 
+            this.textBoxCigKofte5.Location = new System.Drawing.Point(173, 471);
+            this.textBoxCigKofte5.Name = "textBoxCigKofte5";
+            this.textBoxCigKofte5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxCigKofte5.TabIndex = 21;
+            // 
+            // textBoxDoner5
+            // 
+            this.textBoxDoner5.Location = new System.Drawing.Point(173, 427);
+            this.textBoxDoner5.Name = "textBoxDoner5";
+            this.textBoxDoner5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxDoner5.TabIndex = 20;
+            // 
+            // textBoxIskender5
+            // 
+            this.textBoxIskender5.Location = new System.Drawing.Point(173, 382);
+            this.textBoxIskender5.Name = "textBoxIskender5";
+            this.textBoxIskender5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxIskender5.TabIndex = 19;
+            // 
+            // textBoxTost5
+            // 
+            this.textBoxTost5.Location = new System.Drawing.Point(173, 337);
+            this.textBoxTost5.Name = "textBoxTost5";
+            this.textBoxTost5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxTost5.TabIndex = 18;
+            // 
+            // textBoxCay5
+            // 
+            this.textBoxCay5.Location = new System.Drawing.Point(173, 220);
+            this.textBoxCay5.Name = "textBoxCay5";
+            this.textBoxCay5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxCay5.TabIndex = 17;
+            // 
+            // textBoxFanta5
+            // 
+            this.textBoxFanta5.Location = new System.Drawing.Point(173, 173);
+            this.textBoxFanta5.Name = "textBoxFanta5";
+            this.textBoxFanta5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxFanta5.TabIndex = 16;
+            // 
+            // textBoxSu5
+            // 
+            this.textBoxSu5.Location = new System.Drawing.Point(173, 128);
+            this.textBoxSu5.Name = "textBoxSu5";
+            this.textBoxSu5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxSu5.TabIndex = 15;
+            // 
+            // textBoxKola5
+            // 
+            this.textBoxKola5.Location = new System.Drawing.Point(173, 84);
+            this.textBoxKola5.Name = "textBoxKola5";
+            this.textBoxKola5.Size = new System.Drawing.Size(54, 24);
+            this.textBoxKola5.TabIndex = 14;
+            // 
+            // checkBoxKunefe5
+            // 
+            this.checkBoxKunefe5.AutoSize = true;
+            this.checkBoxKunefe5.Location = new System.Drawing.Point(18, 624);
+            this.checkBoxKunefe5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxKunefe5.Name = "checkBoxKunefe5";
+            this.checkBoxKunefe5.Size = new System.Drawing.Size(82, 22);
+            this.checkBoxKunefe5.TabIndex = 13;
+            this.checkBoxKunefe5.Text = "Künefe";
+            this.checkBoxKunefe5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxTrilece5
+            // 
+            this.checkBoxTrilece5.AutoSize = true;
+            this.checkBoxTrilece5.Location = new System.Drawing.Point(18, 582);
+            this.checkBoxTrilece5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxTrilece5.Name = "checkBoxTrilece5";
+            this.checkBoxTrilece5.Size = new System.Drawing.Size(81, 22);
+            this.checkBoxTrilece5.TabIndex = 12;
+            this.checkBoxTrilece5.Text = "Trileçe";
+            this.checkBoxTrilece5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxCigKofte5
+            // 
+            this.checkBoxCigKofte5.AutoSize = true;
+            this.checkBoxCigKofte5.Location = new System.Drawing.Point(18, 471);
+            this.checkBoxCigKofte5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxCigKofte5.Name = "checkBoxCigKofte5";
+            this.checkBoxCigKofte5.Size = new System.Drawing.Size(100, 22);
+            this.checkBoxCigKofte5.TabIndex = 11;
+            this.checkBoxCigKofte5.Text = "Çiğ Köfte";
+            this.checkBoxCigKofte5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxDoner5
+            // 
+            this.checkBoxDoner5.AutoSize = true;
+            this.checkBoxDoner5.Location = new System.Drawing.Point(19, 429);
+            this.checkBoxDoner5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxDoner5.Name = "checkBoxDoner5";
+            this.checkBoxDoner5.Size = new System.Drawing.Size(76, 22);
+            this.checkBoxDoner5.TabIndex = 10;
+            this.checkBoxDoner5.Text = "Döner";
+            this.checkBoxDoner5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxIskender5
+            // 
+            this.checkBoxIskender5.AutoSize = true;
+            this.checkBoxIskender5.Location = new System.Drawing.Point(18, 382);
+            this.checkBoxIskender5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxIskender5.Name = "checkBoxIskender5";
+            this.checkBoxIskender5.Size = new System.Drawing.Size(94, 22);
+            this.checkBoxIskender5.TabIndex = 9;
+            this.checkBoxIskender5.Text = "İskender";
+            this.checkBoxIskender5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxTost5
+            // 
+            this.checkBoxTost5.AutoSize = true;
+            this.checkBoxTost5.Location = new System.Drawing.Point(19, 339);
+            this.checkBoxTost5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxTost5.Name = "checkBoxTost5";
+            this.checkBoxTost5.Size = new System.Drawing.Size(64, 22);
+            this.checkBoxTost5.TabIndex = 8;
+            this.checkBoxTost5.Text = "Tost";
+            this.checkBoxTost5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxCay5
+            // 
+            this.checkBoxCay5.AutoSize = true;
+            this.checkBoxCay5.Location = new System.Drawing.Point(18, 220);
+            this.checkBoxCay5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxCay5.Name = "checkBoxCay5";
+            this.checkBoxCay5.Size = new System.Drawing.Size(59, 22);
+            this.checkBoxCay5.TabIndex = 7;
+            this.checkBoxCay5.Text = "Çay";
+            this.checkBoxCay5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxFanta5
+            // 
+            this.checkBoxFanta5.AutoSize = true;
+            this.checkBoxFanta5.Location = new System.Drawing.Point(18, 173);
+            this.checkBoxFanta5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxFanta5.Name = "checkBoxFanta5";
+            this.checkBoxFanta5.Size = new System.Drawing.Size(72, 22);
+            this.checkBoxFanta5.TabIndex = 6;
+            this.checkBoxFanta5.Text = "Fanta";
+            this.checkBoxFanta5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxSu5
+            // 
+            this.checkBoxSu5.AutoSize = true;
+            this.checkBoxSu5.Location = new System.Drawing.Point(18, 128);
+            this.checkBoxSu5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxSu5.Name = "checkBoxSu5";
+            this.checkBoxSu5.Size = new System.Drawing.Size(50, 22);
+            this.checkBoxSu5.TabIndex = 5;
+            this.checkBoxSu5.Text = "Su";
+            this.checkBoxSu5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxKola5
+            // 
+            this.checkBoxKola5.AutoSize = true;
+            this.checkBoxKola5.Location = new System.Drawing.Point(19, 84);
+            this.checkBoxKola5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxKola5.Name = "checkBoxKola5";
+            this.checkBoxKola5.Size = new System.Drawing.Size(64, 22);
+            this.checkBoxKola5.TabIndex = 4;
+            this.checkBoxKola5.Text = "Kola";
+            this.checkBoxKola5.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.Location = new System.Drawing.Point(8, 529);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(95, 20);
+            this.label19.TabIndex = 3;
+            this.label19.Text = "TATLILAR";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label20.Location = new System.Drawing.Point(8, 36);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(112, 20);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "İÇECEKLER";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label21.Location = new System.Drawing.Point(8, 285);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(107, 20);
+            this.label21.TabIndex = 2;
+            this.label21.Text = "YEMEKLER";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1400, 755);
+            this.ClientSize = new System.Drawing.Size(1550, 755);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.listBox1);
@@ -1194,6 +1480,8 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
@@ -1254,31 +1542,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBoxKunefe3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox textBoxTrilece3;
@@ -1303,6 +1566,56 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TextBox textBoxKunefe4;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBoxTrilece4;
+        private System.Windows.Forms.TextBox textBoxCigKofte4;
+        private System.Windows.Forms.TextBox textBoxDoner4;
+        private System.Windows.Forms.TextBox textBoxIskender4;
+        private System.Windows.Forms.TextBox textBoxTost4;
+        private System.Windows.Forms.TextBox textBoxCay4;
+        private System.Windows.Forms.TextBox textBoxFanta4;
+        private System.Windows.Forms.TextBox textBoxSu4;
+        private System.Windows.Forms.TextBox textBoxKola4;
+        private System.Windows.Forms.CheckBox checkBoxKunefe4;
+        private System.Windows.Forms.CheckBox checkBoxTrilece4;
+        private System.Windows.Forms.CheckBox checkBoxCigKofte4;
+        private System.Windows.Forms.CheckBox checkBoxDoner4;
+        private System.Windows.Forms.CheckBox checkBoxIskender4;
+        private System.Windows.Forms.CheckBox checkBoxTost4;
+        private System.Windows.Forms.CheckBox checkBoxCay4;
+        private System.Windows.Forms.CheckBox checkBoxFanta4;
+        private System.Windows.Forms.CheckBox checkBoxSu4;
+        private System.Windows.Forms.CheckBox checkBoxKola4;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.TextBox textBoxKunefe5;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBoxTrilece5;
+        private System.Windows.Forms.TextBox textBoxCigKofte5;
+        private System.Windows.Forms.TextBox textBoxDoner5;
+        private System.Windows.Forms.TextBox textBoxIskender5;
+        private System.Windows.Forms.TextBox textBoxTost5;
+        private System.Windows.Forms.TextBox textBoxCay5;
+        private System.Windows.Forms.TextBox textBoxFanta5;
+        private System.Windows.Forms.TextBox textBoxSu5;
+        private System.Windows.Forms.TextBox textBoxKola5;
+        private System.Windows.Forms.CheckBox checkBoxKunefe5;
+        private System.Windows.Forms.CheckBox checkBoxTrilece5;
+        private System.Windows.Forms.CheckBox checkBoxCigKofte5;
+        private System.Windows.Forms.CheckBox checkBoxDoner5;
+        private System.Windows.Forms.CheckBox checkBoxIskender5;
+        private System.Windows.Forms.CheckBox checkBoxTost5;
+        private System.Windows.Forms.CheckBox checkBoxCay5;
+        private System.Windows.Forms.CheckBox checkBoxFanta5;
+        private System.Windows.Forms.CheckBox checkBoxSu5;
+        private System.Windows.Forms.CheckBox checkBoxKola5;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
     }
 }
 
