@@ -1,0 +1,10 @@
+C:\Users\zehra\source\repos\vize_projesi\bin\Debug\vize_projesi.exe.config
+C:\Users\zehra\source\repos\vize_projesi\bin\Debug\vize_projesi.exe
+C:\Users\zehra\source\repos\vize_projesi\bin\Debug\vize_projesi.pdb
+C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.AssemblyReference.cache
+C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.Form1.resources
+C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.Properties.Resources.resources
+C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.GenerateResource.cache
+C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.CoreCompileInputs.cache
+C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.exe
+C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.pdb
