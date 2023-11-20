@@ -82,6 +82,36 @@ namespace vize_projesi
                 toplamFiyat += urunFiyatlari["Tost"] * adet;
                 urunAdetleri["Tost"] = adet;
             }
+            if (checkBoxIskender.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxIskender.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
+                toplamFiyat += urunFiyatlari["İskender"] * adet;
+                urunAdetleri["İskender"] = adet;
+            }
+            if (checkBoxDoner.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxDoner.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
+                toplamFiyat += urunFiyatlari["Döner"] * adet;
+                urunAdetleri["Döner"] = adet;
+            }
+            if (checkBoxCigKofte.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxCigKofte.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
+                toplamFiyat += urunFiyatlari["Çiğ Köfte"] * adet;
+                urunAdetleri["Çiğ Köfte"] = adet;
+            }
+            if (checkBoxTrilece.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxTrilece.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
+                toplamFiyat += urunFiyatlari["Trileçe"] * adet;
+                urunAdetleri["Trileçe"] = adet;
+            }
+            if (checkBoxKunefe.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxKunefe.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
+                toplamFiyat += urunFiyatlari["Künefe"] * adet;
+                urunAdetleri["Künefe"] = adet;
+            }
 
 
             // Diğer ürünlerin seçili olup olmadığını ve adetlerini kontrol edin ve fiyatları ve adetleri toplayın

@@ -41,7 +41,7 @@
             this.textBoxKola = new System.Windows.Forms.TextBox();
             this.checkBoxKunefe = new System.Windows.Forms.CheckBox();
             this.checkBoxTrilece = new System.Windows.Forms.CheckBox();
-            this.checkBoxCıgKofte = new System.Windows.Forms.CheckBox();
+            this.checkBoxCigKofte = new System.Windows.Forms.CheckBox();
             this.checkBoxDoner = new System.Windows.Forms.CheckBox();
             this.checkBoxIskender = new System.Windows.Forms.CheckBox();
             this.checkBoxTost = new System.Windows.Forms.CheckBox();
@@ -71,7 +71,7 @@
             this.groupBox1.Controls.Add(this.textBoxKola);
             this.groupBox1.Controls.Add(this.checkBoxKunefe);
             this.groupBox1.Controls.Add(this.checkBoxTrilece);
-            this.groupBox1.Controls.Add(this.checkBoxCıgKofte);
+            this.groupBox1.Controls.Add(this.checkBoxCigKofte);
             this.groupBox1.Controls.Add(this.checkBoxDoner);
             this.groupBox1.Controls.Add(this.checkBoxIskender);
             this.groupBox1.Controls.Add(this.checkBoxTost);
@@ -183,16 +183,16 @@
             this.checkBoxTrilece.Text = "Trileçe";
             this.checkBoxTrilece.UseVisualStyleBackColor = true;
             // 
-            // checkBoxCıgKofte
+            // checkBoxCigKofte
             // 
-            this.checkBoxCıgKofte.AutoSize = true;
-            this.checkBoxCıgKofte.Location = new System.Drawing.Point(18, 471);
-            this.checkBoxCıgKofte.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.checkBoxCıgKofte.Name = "checkBoxCıgKofte";
-            this.checkBoxCıgKofte.Size = new System.Drawing.Size(100, 22);
-            this.checkBoxCıgKofte.TabIndex = 11;
-            this.checkBoxCıgKofte.Text = "Çiğ Köfte";
-            this.checkBoxCıgKofte.UseVisualStyleBackColor = true;
+            this.checkBoxCigKofte.AutoSize = true;
+            this.checkBoxCigKofte.Location = new System.Drawing.Point(18, 471);
+            this.checkBoxCigKofte.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBoxCigKofte.Name = "checkBoxCigKofte";
+            this.checkBoxCigKofte.Size = new System.Drawing.Size(100, 22);
+            this.checkBoxCigKofte.TabIndex = 11;
+            this.checkBoxCigKofte.Text = "Çiğ Köfte";
+            this.checkBoxCigKofte.UseVisualStyleBackColor = true;
             // 
             // checkBoxDoner
             // 
@@ -349,7 +349,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox checkBoxKunefe;
         private System.Windows.Forms.CheckBox checkBoxTrilece;
-        private System.Windows.Forms.CheckBox checkBoxCıgKofte;
+        private System.Windows.Forms.CheckBox checkBoxCigKofte;
         private System.Windows.Forms.CheckBox checkBoxDoner;
         private System.Windows.Forms.CheckBox checkBoxIskender;
         private System.Windows.Forms.CheckBox checkBoxTost;
