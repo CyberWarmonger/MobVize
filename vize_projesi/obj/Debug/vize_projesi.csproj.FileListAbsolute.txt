@@ -8,3 +8,13 @@ C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.GenerateR
 C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.CoreCompileInputs.cache
 C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.exe
 C:\Users\zehra\source\repos\vize_projesi\obj\Debug\vize_projesi.pdb
+C:\Users\CyberWarmonger\source\repos\vize_projesi\bin\Debug\vize_projesi.exe.config
+C:\Users\CyberWarmonger\source\repos\vize_projesi\bin\Debug\vize_projesi.exe
+C:\Users\CyberWarmonger\source\repos\vize_projesi\bin\Debug\vize_projesi.pdb
+C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.AssemblyReference.cache
+C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.Form1.resources
+C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.Properties.Resources.resources
+C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.GenerateResource.cache
+C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.CoreCompileInputs.cache
+C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.exe
+C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.pdb

@@ -38,12 +38,12 @@ namespace vize_projesi
             urunAdetleri.Add("Su", 0);
             urunAdetleri.Add("Fanta", 0);
             urunAdetleri.Add("Çay", 0);
-            urunFiyatlari.Add("Tost", 0);
-            urunFiyatlari.Add("İskender", 0);
-            urunFiyatlari.Add("Döner", 0);
-            urunFiyatlari.Add("Çiğ Köfte", 0);
-            urunFiyatlari.Add("Trileçe", 0);
-            urunFiyatlari.Add("Künefe", 0);
+            urunAdetleri.Add("Tost", 0);
+            urunAdetleri.Add("İskender", 0);
+            urunAdetleri.Add("Döner", 0);
+            urunAdetleri.Add("Çiğ Köfte", 0);
+            urunAdetleri.Add("Trileçe", 0);
+            urunAdetleri.Add("Künefe", 0);
             // Diğer ürünlerin adetlerini de ekleyin
 
             // Kullanıcının seçtiği ürünlerin fiyatlarını ve adetlerini toplamak için değişkenler
