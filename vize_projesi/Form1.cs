@@ -20,31 +20,30 @@ namespace vize_projesi
         private void button1_Click(object sender, EventArgs e)
         {
             Dictionary<string, decimal> urunFiyatlari = new Dictionary<string, decimal>();
-            urunFiyatlari.Add("Kola", 5.0m);
-            urunFiyatlari.Add("gazoz", 3.0m);
-            urunFiyatlari.Add("çay", 1.5m);
-            urunFiyatlari.Add("kahve", 1.5m);
-            urunFiyatlari.Add("çay", 1.5m);
-            urunFiyatlari.Add("iskender", 1.5m);
-            urunFiyatlari.Add("makarna", 1.5m);
-            urunFiyatlari.Add("döner", 1.5m);
-            urunFiyatlari.Add("lahmacun", 1.5m);
-            urunFiyatlari.Add("künefe", 1.5m);
-            urunFiyatlari.Add("pasta", 1.5m);
+            urunFiyatlari.Add("Kola", 15.0m);
+            urunFiyatlari.Add("Su", 5.0m);
+            urunFiyatlari.Add("Fanta", 15.0m);
+            urunFiyatlari.Add("Çay", 10.0m);
+            urunFiyatlari.Add("Tost", 25.0m);
+            urunFiyatlari.Add("iskender", 50.0m);
+            urunFiyatlari.Add("Döner", 30.0m);
+            urunFiyatlari.Add("Çiğ Köfte", 25.0m);
+            urunFiyatlari.Add("Trileçe", 30.0m);
+            urunFiyatlari.Add("Künefe", 30.0m);
             // Diğer ürünlerin fiyatlarını da ekleyin
 
             // Ürünlerin adetlerini tutacak sözlük
             Dictionary<string, int> urunAdetleri = new Dictionary<string, int>();
             urunAdetleri.Add("Kola", 0);
-            urunAdetleri.Add("Ayran", 0);
-            urunAdetleri.Add("kahve", 0);
-            urunAdetleri.Add("çay", 0);
-            urunFiyatlari.Add("iskender", 0);
-            urunFiyatlari.Add("makarna", 0);
-            urunFiyatlari.Add("döner", 0);
-            urunFiyatlari.Add("lahmacun", 0);
-            urunFiyatlari.Add("künefe", 0);
-            urunFiyatlari.Add("pasta", 0);
+            urunAdetleri.Add("Su", 0);
+            urunAdetleri.Add("Fanta", 0);
+            urunAdetleri.Add("Çay", 0);
+            urunFiyatlari.Add("Tost", 0);
+            urunFiyatlari.Add("İskender", 0);
+            urunFiyatlari.Add("Döner", 0);
+            urunFiyatlari.Add("Çiğ Köfte", 0);
+            urunFiyatlari.Add("Trileçe", 0);
+            urunFiyatlari.Add("Künefe", 0);
             // Diğer ürünlerin adetlerini de ekleyin
 
             // Kullanıcının seçtiği ürünlerin fiyatlarını ve adetlerini toplamak için değişkenler
@@ -61,27 +60,27 @@ namespace vize_projesi
             if (checkBoxSu.Checked)
             {
                 int adet = Convert.ToInt32(textBoxSu.Text); // Ayran için adet girişi yapılacak bir TextBox (txtAyranAdet) kullanıldığını varsayalım
-                toplamFiyat += urunFiyatlari["gazoz"] * adet;
-                urunAdetleri["gazoz"] = adet;
+                toplamFiyat += urunFiyatlari["Su"] * adet;
+                urunAdetleri["Su"] = adet;
             }
 
             if (checkBoxFanta.Checked)
             {
                 int adet = Convert.ToInt32(textBoxFanta.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
-                toplamFiyat += urunFiyatlari["çay"] * adet;
-                urunAdetleri["çay"] = adet;
-            }
-            if (checkBoxFanta.Checked)
-            {
-                int adet = Convert.ToInt32(textBoxFanta.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
-                toplamFiyat += urunFiyatlari["kahve"] * adet;
-                urunAdetleri["kahve"] = adet;
+                toplamFiyat += urunFiyatlari["Fanta"] * adet;
+                urunAdetleri["Fanta"] = adet;
             }
             if (checkBoxCay.Checked)
             {
                 int adet = Convert.ToInt32(textBoxCay.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
-                toplamFiyat += urunFiyatlari["iskender"] * adet;
-                urunAdetleri["iskender"] = adet;
+                toplamFiyat += urunFiyatlari["Çay"] * adet;
+                urunAdetleri["Çay"] = adet;
+            }
+            if (checkBoxTost.Checked)
+            {
+                int adet = Convert.ToInt32(textBoxTost.Text); // Su için adet girişi yapılacak bir TextBox (txtSuAdet) kullanıldığını varsayalım
+                toplamFiyat += urunFiyatlari["Tost"] * adet;
+                urunAdetleri["Tost"] = adet;
             }
 
 
