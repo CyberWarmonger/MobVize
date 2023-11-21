@@ -18,3 +18,4 @@ C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.
 C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.csproj.CoreCompileInputs.cache
 C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.exe
 C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.pdb
+C:\Users\CyberWarmonger\source\repos\vize_projesi\obj\Debug\vize_projesi.Odeme.resources
